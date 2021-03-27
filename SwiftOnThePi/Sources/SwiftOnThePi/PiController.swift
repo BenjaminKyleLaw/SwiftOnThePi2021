@@ -28,4 +28,56 @@ class PiController {
 
         PiApplication.announceEnd()
     }
+
+    func multipleLEDs() {
+
+    }
+
+    func readingPotentiometer() {
+
+    }
+
+    func readingPushButton() {
+
+    }
+
+    func readingSPDTSwitch() {
+
+    }
+
+    func readingLightSensor() {
+
+    }
+
+    func animatingLEDs() {
+
+    }
+
+    func drivingRGBLED() {
+
+    }
+
+    func hBridgeMotorController() {
+
+    }
+
+    func bme280() {
+
+    }
+
+    func soilMoistureSensor() {
+
+    }
+
+    func usingLCDScreen() {
+
+    }
+
+    func controllingLEDsWithShiftRegister() {
+
+    }
+
+    func drivingSevenSegmentDisplay() {
+
+    }
 }
