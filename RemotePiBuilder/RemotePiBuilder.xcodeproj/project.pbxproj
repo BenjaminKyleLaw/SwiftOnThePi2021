@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CC52271C25FEBB6400AF7CCF /* LEDControl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LEDControl; path = ../LEDControl; sourceTree = "<group>"; };
+		CC06C17A260FF16100EF95E9 /* SwiftOnThePi */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftOnThePi; path = ../SwiftOnThePi; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		CC52271125FEBB1D00AF7CCF = {
+		CC06C16F260FF12E00EF95E9 = {
 			isa = PBXGroup;
 			children = (
-				CC52271C25FEBB6400AF7CCF /* LEDControl */,
+				CC06C17A260FF16100EF95E9 /* SwiftOnThePi */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		CC52271625FEBB1D00AF7CCF /* RemotePiBuild */ = {
+		CC06C174260FF12E00EF95E9 /* RemotePiBuilder */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "pi 10.0.0.217";
-			buildConfigurationList = CC52271925FEBB1D00AF7CCF /* Build configuration list for PBXLegacyTarget "RemotePiBuild" */;
+			buildConfigurationList = CC06C177260FF12E00EF95E9 /* Build configuration list for PBXLegacyTarget "RemotePiBuilder" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/bin/xport;
-			buildWorkingDirectory = /Users/gcharles/Documents/Pi/LEDControl;
+			buildWorkingDirectory = /Users/gcharles/Documents/Pi/SwiftOnThePi;
 			dependencies = (
 			);
-			name = RemotePiBuild;
+			name = RemotePiBuilder;
 			passBuildSettingsInEnvironment = 1;
-			productName = RemotePiBuild;
+			productName = RemotePiBuilder;
 		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
-		CC52271225FEBB1D00AF7CCF /* Project object */ = {
+		CC06C170260FF12E00EF95E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					CC52271625FEBB1D00AF7CCF = {
+					CC06C174260FF12E00EF95E9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = CC52271525FEBB1D00AF7CCF /* Build configuration list for PBXProject "RemotePiBuild" */;
+			buildConfigurationList = CC06C173260FF12E00EF95E9 /* Build configuration list for PBXProject "RemotePiBuilder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -56,17 +56,17 @@
 				en,
 				Base,
 			);
-			mainGroup = CC52271125FEBB1D00AF7CCF;
+			mainGroup = CC06C16F260FF12E00EF95E9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC52271625FEBB1D00AF7CCF /* RemotePiBuild */,
+				CC06C174260FF12E00EF95E9 /* RemotePiBuilder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		CC52271725FEBB1D00AF7CCF /* Debug */ = {
+		CC06C175260FF12E00EF95E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -123,7 +123,7 @@
 			};
 			name = Debug;
 		};
-		CC52271825FEBB1D00AF7CCF /* Release */ = {
+		CC06C176260FF12E00EF95E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,7 +173,7 @@
 			};
 			name = Release;
 		};
-		CC52271A25FEBB1D00AF7CCF /* Debug */ = {
+		CC06C178260FF12E00EF95E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CC52271B25FEBB1D00AF7CCF /* Release */ = {
+		CC06C179260FF12E00EF95E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -203,25 +203,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC52271525FEBB1D00AF7CCF /* Build configuration list for PBXProject "RemotePiBuild" */ = {
+		CC06C173260FF12E00EF95E9 /* Build configuration list for PBXProject "RemotePiBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC52271725FEBB1D00AF7CCF /* Debug */,
-				CC52271825FEBB1D00AF7CCF /* Release */,
+				CC06C175260FF12E00EF95E9 /* Debug */,
+				CC06C176260FF12E00EF95E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC52271925FEBB1D00AF7CCF /* Build configuration list for PBXLegacyTarget "RemotePiBuild" */ = {
+		CC06C177260FF12E00EF95E9 /* Build configuration list for PBXLegacyTarget "RemotePiBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC52271A25FEBB1D00AF7CCF /* Debug */,
-				CC52271B25FEBB1D00AF7CCF /* Release */,
+				CC06C178260FF12E00EF95E9 /* Debug */,
+				CC06C179260FF12E00EF95E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC52271225FEBB1D00AF7CCF /* Project object */;
+	rootObject = CC06C170260FF12E00EF95E9 /* Project object */;
 }

@@ -1,7 +1,7 @@
 import XCTest
 
-import LEDControlTests
+import SwiftOnThePiTests
 
 var tests = [XCTestCaseEntry]()
-tests += LEDControlTests.allTests()
+tests += SwiftOnThePiTests.allTests()
 XCTMain(tests)

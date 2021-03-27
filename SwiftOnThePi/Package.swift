@@ -4,13 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "LEDControl",
+    name: "SwiftOnThePi",
+    products: [
+        .library(
+            name: "SwiftOnThePi",
+            targets: ["SwiftOnThePi"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/uraimo/SwiftyGPIO.git", from: "1.1.14")
     ],
     targets: [
         .target(
-            name: "LEDControl",
+            name: "SwiftOnThePi",
             dependencies: ["SwiftyGPIO"]),
+        .testTarget(
+            name: "SwiftOnThePiTests",
+            dependencies: ["SwiftOnThePi"]),
     ]
 )

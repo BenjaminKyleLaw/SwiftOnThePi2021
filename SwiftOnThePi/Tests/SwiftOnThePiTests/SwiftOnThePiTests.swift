@@ -1,12 +1,12 @@
 import XCTest
-@testable import LEDControl
+@testable import SwiftOnThePi
 
-final class LEDControlTests: XCTestCase {
+final class SwiftOnThePiTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(LEDControl().text, "Hello, World!")
+        XCTAssertEqual(SwiftOnThePi().text, "Hello, World!")
     }
 
     static var allTests = [
