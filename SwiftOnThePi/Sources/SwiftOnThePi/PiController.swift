@@ -37,8 +37,33 @@ class PiController {
 
     }
 
-    func readingPushButton() {
+	func readingPushButton() {
 
+        let gpio = SwiftyGPIO.GPIOs(for: .RaspberryPi4)
+
+        guard let button = gpio[.P12] else {
+            fatalError("Could not locate button")
+        }
+
+        button.direction = .IN
+        let current = button.value
+        button.bounceTime = 0.5
+
+        button.onRaising{
+            gpio in 
+            print("Transition to 1, current value:" + String(gpio.value))
+        }
+
+        button.onFalling{
+            gpio in
+            print("Transition to 0, current value:" + String(gpio.value))
+        }
+
+        button.onChange{
+            gpio in
+            gpio.clearListeners()
+            print("The value changed, current value:" + String(gpio.value))
+        }  
     }
 
     func readingSPDTSwitch() {
