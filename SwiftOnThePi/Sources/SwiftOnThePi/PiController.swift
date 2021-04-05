@@ -70,7 +70,11 @@ class PiController {
     }
 
     func usingLCDScreen() {
+        let i2cs = SwiftyGPIO.hardwareI2Cs(for:RaspberryPi4)!
 
+        guard let i2c = i2cs[1] else {
+            fatalError("Could not locate I2C bus")
+        }
     }
 
     func controllingLEDsWithShiftRegister() {
